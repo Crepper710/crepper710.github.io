@@ -1,0 +1,46 @@
+/* this file is mainly from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+everything by me is marked with "this"*/
+.fa {
+	padding-top: 40px;    /*this*/
+	padding-bottom: 40px; /*this*/
+	width: 200px;         /*this*/
+	font-size: 120px;     /*this*/
+	text-align: center;
+	text-decoration: none;
+	margin: 10px 5px;
+	border-radius: 75px;  /*this*/
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-reddit {
+	background: #ff5700;
+	color: white;
+}
+
+.fa-github { /*this*/
+	background: #24292e;
+	color: white;
+}
+
+.fa-steam { /*this*/
+	background: #2a475e;
+	color: white;
+}
