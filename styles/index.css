@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	font-size: 62.5%;
 }
 
 html, body {
@@ -24,6 +25,8 @@ body {
 	background-size: 100%;
 	background-position: center;
 	height: 100vh;
+	position: relative;
+	z-index: -2;
 }
 
 .content-page {
@@ -40,7 +43,7 @@ body {
 	background-color: #222;
 	color: #ddd;
 	padding: 16px;
-	font-size: 16px;
+	font-size: 1.6rem;
 	border: none;
 	position: relative;
 	display: inline-block;
@@ -70,7 +73,7 @@ body {
 .mainlink {
 	padding: 16x;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 2rem;
 	color: #ddd;
 }
 
@@ -80,14 +83,16 @@ body {
 
 .title {
 	padding-top: 40vh;
-	font-size: 100px;
+	font-size: 10rem;
 	font-weight: bold;
 	color: #ddd;
+	position: relative;
+	text-align: center;
 }
 
 .content-title {
 	padding-top: 20px;
-	font-size: 40px;
+	font-size: 4rem;
 	font-weight: bold;
 	color: #ddd;
 	padding-top: 10px;
@@ -109,7 +114,7 @@ body {
 
 .block .sub-block {
 	margin-top: 20px;
-	font-size: 20px;
+	font-size: 2rem;
 	display: block;
 	color: #fff;
 	text-align: left;
@@ -130,7 +135,7 @@ body {
 	text-align: center;
 	width: 350px;
 	padding-top: 10px;
-	font-size: 20px;
+	font-size: 2rem;
 	top: calc(50vh - 48px);
 	left: calc(50vw - 175px);
 }
@@ -145,4 +150,13 @@ body {
 
 .discord-overlay .discord-window .discord-buttons .discord-button:hover {
 	background-color: #555;
+}
+
+#particles-js {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	heigth: 100%;
+	z-index: -1;
 }
