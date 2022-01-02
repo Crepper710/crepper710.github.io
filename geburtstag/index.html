@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<!--
 
+
+
+
+
+
+
+
+
+
+
+
+		Die Lösung ist unter: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	-->
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Geburtstags Rtsel</title>
+    <style media="screen">
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        display: flex;
+        font-family: arial;
+      }
+      .display {
+        position: relative;
+        margin: auto;
+        display: inline-block;
+        background-color: #DDD;
+        border-radius: 25px;
+        padding: 20px;
+      }
+
+	  .clue-buttons {
+      	position: relative;
+        display: flex;
+      }
+
+      .clue-button {
+      	position: relative;
+        display: inline-block;
+        margin: 5px auto;
+        padding: 10px 50px;
+        border-radius: 25px;
+        background-color: #BBB;
+      	text-decoration: none;
+        transition: background-color 1s ease;
+      }
+
+      .clue-button:visited {
+      	color: #000;
+      }
+
+      .clue-button:hover {
+      	background-color: #CCC;
+      }
+
+      .clue-table {
+      	padding: 20px;
+        border-radius: 25px;
+        background-color: #BBB;
+        margin: auto;
+      }
+
+      .clue-table-cell {
+      	position: relative;
+        padding: 0 10px;
+      }
+
+      strikethrough {
+      	text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="display">
+      Oh nein sieht so aus als wäre das Geschenk hinter einer <strikethrough>Pay</strikethrough> Riddlewall versteckt.<br>
+      Um es zu erhalten musst du das Rätsel lösen und mir die Lösung irgendwie mitteilen.<br>
+      In dem Geschenk wirst du 3 Zahlen finden, mit diesen musst du nach dem vorgegebenen Muster ein Passwort aus 3 Ziffern erstellen.<br>
+      Diese Sicherheitsvorkehrung musste ich treffen, um sicher zu sein, dass du nicht durch ein Roboter ersetzt wurdest,<br>
+      Teil von Zuckerbergs Marsianer-Armee bist oder von die Mücken gestochen wurdest.<br>
+      Ich habe zwei Tipps für dich, vielleicht schaffst du es auch ohne<br>
+      (Und auch die Lösung, dafür einfach den Quelltext der Seite angucken und nach einem Kommentar suchen, aber psst):<br>
+      <div class="clue-buttons"><a class="clue-button one" href="#">Tipp 1</a><a class="clue-button one" href="#">Tipp 2</a></div>
+      <table class="clue-table">
+      	Beispiele:
+      	<tr><th>Schritt 1</th><th>Schritt 2</th><th>Schritt 3</th></tr>
+      	<tr><td class="clue-table-cell">42, 81, 35</td><td class="clue-table-cell">35, 42, 81</td><td class="clue-table-cell">8, 6, 9</td></tr>
+      	<tr><td class="clue-table-cell">17, 2, 420</td><td class="clue-table-cell">2, 17, 420</td><td class="clue-table-cell">2, 8, 6</td></tr>
+      	<tr><td class="clue-table-cell">6, 1, 27</td><td class="clue-table-cell">1, 6, 27</td><td class="clue-table-cell">1, 6, 9</td></tr>
+      	<tr><td class="clue-table-cell">16, 9, 4</td><td class="clue-table-cell">4, 9, 16</td><td class="clue-table-cell">4, 9, 7</td></tr>
+      	<tr><td class="clue-table-cell">24, 0, 72</td><td class="clue-table-cell">0, 24, 72</td><td class="clue-table-cell">0, 6, 9</td></tr>
+      </table>
+    </div>
+  </body>
+</html>
